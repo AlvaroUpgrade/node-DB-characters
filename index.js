@@ -8,7 +8,7 @@ db.connectDb();
 const server = express();
 const PORT = 3000;
 
-//Pregunta
+//Para que el servidor pueda interpretar los datos adecuadamente
 server.use(express.json());
 server.use(express.urlencoded({ extended: false }));
 
